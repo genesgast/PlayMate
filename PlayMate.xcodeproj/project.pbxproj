@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		60A8A023A9F429E886FD9D6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10582FBFFF0FDEA48182BCB /* libPods.a */; };
+		CE606C7319FDA54200708A7D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */; };
+		CE606C7619FDA56800708A7D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE606C7419FDA56800708A7D /* Main_iPad.storyboard */; };
 		CE7E0BE219FD87B500F41296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE119FD87B500F41296 /* main.m */; };
 		CE7E0BE519FD87B500F41296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE419FD87B500F41296 /* AppDelegate.m */; };
 		CE7E0BE819FD87B500F41296 /* PlayMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE619FD87B500F41296 /* PlayMate.xcdatamodeld */; };
 		CE7E0BEB19FD87B500F41296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BEA19FD87B500F41296 /* ViewController.m */; };
-		CE7E0BEE19FD87B500F41296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7E0BEC19FD87B500F41296 /* Main.storyboard */; };
 		CE7E0BF019FD87B600F41296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E0BEF19FD87B600F41296 /* Images.xcassets */; };
 		CE7E0BF319FD87B600F41296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7E0BF119FD87B600F41296 /* LaunchScreen.xib */; };
 		CE7E0BFF19FD87B600F41296 /* PlayMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BFE19FD87B600F41296 /* PlayMateTests.m */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		4D16A89B97F5D1FDB5E72B0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C10582FBFFF0FDEA48182BCB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE606C7219FDA54100708A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CE606C7519FDA56800708A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CE7E0BDC19FD87B500F41296 /* PlayMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E0BE019FD87B500F41296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7E0BE119FD87B500F41296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +42,6 @@
 		CE7E0BE719FD87B500F41296 /* PlayMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayMate.xcdatamodel; sourceTree = "<group>"; };
 		CE7E0BE919FD87B500F41296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE7E0BEA19FD87B500F41296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE7E0BED19FD87B500F41296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7E0BEF19FD87B600F41296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE7E0BF219FD87B600F41296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE7E0BF819FD87B600F41296 /* PlayMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,11 +113,12 @@
 				CE7E0BE419FD87B500F41296 /* AppDelegate.m */,
 				CE7E0BE919FD87B500F41296 /* ViewController.h */,
 				CE7E0BEA19FD87B500F41296 /* ViewController.m */,
-				CE7E0BEC19FD87B500F41296 /* Main.storyboard */,
 				CE7E0BEF19FD87B600F41296 /* Images.xcassets */,
 				CE7E0BF119FD87B600F41296 /* LaunchScreen.xib */,
 				CE7E0BE619FD87B500F41296 /* PlayMate.xcdatamodeld */,
 				CE7E0BDF19FD87B500F41296 /* Supporting Files */,
+				CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */,
+				CE606C7419FDA56800708A7D /* Main_iPad.storyboard */,
 			);
 			path = PlayMate;
 			sourceTree = "<group>";
@@ -228,7 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7E0BEE19FD87B500F41296 /* Main.storyboard in Resources */,
+				CE606C7619FDA56800708A7D /* Main_iPad.storyboard in Resources */,
+				CE606C7319FDA54200708A7D /* Main_iPhone.storyboard in Resources */,
 				CE7E0BF319FD87B600F41296 /* LaunchScreen.xib in Resources */,
 				CE7E0BF019FD87B600F41296 /* Images.xcassets in Resources */,
 			);
@@ -307,12 +311,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE7E0BEC19FD87B500F41296 /* Main.storyboard */ = {
+		CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE7E0BED19FD87B500F41296 /* Base */,
+				CE606C7219FDA54100708A7D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE606C7419FDA56800708A7D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE606C7519FDA56800708A7D /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		CE7E0BF119FD87B600F41296 /* LaunchScreen.xib */ = {
