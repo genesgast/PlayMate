@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A8A023A9F429E886FD9D6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10582FBFFF0FDEA48182BCB /* libPods.a */; };
 		CE7E0BE219FD87B500F41296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE119FD87B500F41296 /* main.m */; };
 		CE7E0BE519FD87B500F41296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE419FD87B500F41296 /* AppDelegate.m */; };
 		CE7E0BE819FD87B500F41296 /* PlayMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE619FD87B500F41296 /* PlayMate.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D16A89B97F5D1FDB5E72B0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C10582FBFFF0FDEA48182BCB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E0BDC19FD87B500F41296 /* PlayMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E0BE019FD87B500F41296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7E0BE119FD87B500F41296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		CE7E0BF819FD87B600F41296 /* PlayMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E0BFD19FD87B600F41296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7E0BFE19FD87B600F41296 /* PlayMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMateTests.m; sourceTree = "<group>"; };
+		D033A609C3F7D8FE9888633F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A8A023A9F429E886FD9D6D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C68957E108E58E3D5D921A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D033A609C3F7D8FE9888633F /* Pods.debug.xcconfig */,
+				4D16A89B97F5D1FDB5E72B0E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23215B5406CD99CDBA18040B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C10582FBFFF0FDEA48182BCB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE7E0BD319FD87B500F41296 = {
 			isa = PBXGroup;
 			children = (
 				CE7E0BDE19FD87B500F41296 /* PlayMate */,
 				CE7E0BFB19FD87B600F41296 /* PlayMateTests */,
 				CE7E0BDD19FD87B500F41296 /* Products */,
+				0C68957E108E58E3D5D921A9 /* Pods */,
+				23215B5406CD99CDBA18040B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7E0C0219FD87B600F41296 /* Build configuration list for PBXNativeTarget "PlayMate" */;
 			buildPhases = (
+				3D8C3C7FBF42B51F63855AF8 /* Check Pods Manifest.lock */,
 				CE7E0BD819FD87B500F41296 /* Sources */,
 				CE7E0BD919FD87B500F41296 /* Frameworks */,
 				CE7E0BDA19FD87B500F41296 /* Resources */,
+				21B71BDCA1862D1FD2B7934B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +242,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B71BDCA1862D1FD2B7934B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8C3C7FBF42B51F63855AF8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE7E0BD819FD87B500F41296 /* Sources */ = {
@@ -347,9 +406,11 @@
 		};
 		CE7E0C0319FD87B600F41296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D033A609C3F7D8FE9888633F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlayMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +418,11 @@
 		};
 		CE7E0C0419FD87B600F41296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D16A89B97F5D1FDB5E72B0E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlayMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +481,7 @@
 				CE7E0C0419FD87B600F41296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7E0C0519FD87B600F41296 /* Build configuration list for PBXNativeTarget "PlayMateTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +490,7 @@
 				CE7E0C0719FD87B600F41296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

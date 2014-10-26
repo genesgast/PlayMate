@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A729BA22-ABBE-4E2F-B501-F0763652F77B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlayMate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD20469365BD67B12C34685CE81FF4766DFCA0F3</key>
+		<string>https://github.com/genesgast/PlayMate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlayMate.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD20469365BD67B12C34685CE81FF4766DFCA0F3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/genesgast/PlayMate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD20469365BD67B12C34685CE81FF4766DFCA0F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD20469365BD67B12C34685CE81FF4766DFCA0F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlayMate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
