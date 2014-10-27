@@ -10,6 +10,13 @@
 		60A8A023A9F429E886FD9D6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10582FBFFF0FDEA48182BCB /* libPods.a */; };
 		CE606C7319FDA54200708A7D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */; };
 		CE606C7619FDA56800708A7D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE606C7419FDA56800708A7D /* Main_iPad.storyboard */; };
+		CE606C8019FDD2EA00708A7D /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C7F19FDD2EA00708A7D /* HomeController.m */; };
+		CE606C8319FDD43000708A7D /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C8219FDD43000708A7D /* MapController.m */; };
+		CE606C8619FDE24000708A7D /* AreaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C8519FDE23F00708A7D /* AreaTableViewController.m */; };
+		CE606C8919FDE52F00708A7D /* MapGameSplitController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C8819FDE52F00708A7D /* MapGameSplitController.m */; };
+		CE606C8F19FDF2E000708A7D /* JustPostedAreaTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C8E19FDF2E000708A7D /* JustPostedAreaTVC.m */; };
+		CE606C9419FDF5E200708A7D /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C9319FDF5E200708A7D /* FlickrFetcher.m */; };
+		CE606C9719FDFD6E00708A7D /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE606C9619FDFD6E00708A7D /* ImageViewController.m */; };
 		CE7E0BE219FD87B500F41296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE119FD87B500F41296 /* main.m */; };
 		CE7E0BE519FD87B500F41296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE419FD87B500F41296 /* AppDelegate.m */; };
 		CE7E0BE819FD87B500F41296 /* PlayMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0BE619FD87B500F41296 /* PlayMate.xcdatamodeld */; };
@@ -34,6 +41,21 @@
 		C10582FBFFF0FDEA48182BCB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE606C7219FDA54100708A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CE606C7519FDA56800708A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CE606C7E19FDD2EA00708A7D /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = ViewControllers/HomeController.h; sourceTree = "<group>"; };
+		CE606C7F19FDD2EA00708A7D /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeController.m; path = ViewControllers/HomeController.m; sourceTree = "<group>"; };
+		CE606C8119FDD43000708A7D /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapController.h; path = ViewControllers/MapController.h; sourceTree = "<group>"; };
+		CE606C8219FDD43000708A7D /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapController.m; path = ViewControllers/MapController.m; sourceTree = "<group>"; };
+		CE606C8419FDE23F00708A7D /* AreaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AreaTableViewController.h; path = ViewControllers/AreaTableViewController.h; sourceTree = "<group>"; };
+		CE606C8519FDE23F00708A7D /* AreaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AreaTableViewController.m; path = ViewControllers/AreaTableViewController.m; sourceTree = "<group>"; };
+		CE606C8719FDE52F00708A7D /* MapGameSplitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapGameSplitController.h; path = ViewControllers/MapGameSplitController.h; sourceTree = "<group>"; };
+		CE606C8819FDE52F00708A7D /* MapGameSplitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapGameSplitController.m; path = ViewControllers/MapGameSplitController.m; sourceTree = "<group>"; };
+		CE606C8D19FDF2E000708A7D /* JustPostedAreaTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustPostedAreaTVC.h; path = ViewControllers/JustPostedAreaTVC.h; sourceTree = "<group>"; };
+		CE606C8E19FDF2E000708A7D /* JustPostedAreaTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JustPostedAreaTVC.m; path = ViewControllers/JustPostedAreaTVC.m; sourceTree = "<group>"; };
+		CE606C9119FDF5E200708A7D /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		CE606C9219FDF5E200708A7D /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		CE606C9319FDF5E200708A7D /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		CE606C9519FDFD6D00708A7D /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		CE606C9619FDFD6E00708A7D /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		CE7E0BDC19FD87B500F41296 /* PlayMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E0BE019FD87B500F41296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7E0BE119FD87B500F41296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +108,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE606C7719FDCD5E00708A7D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E0BE919FD87B500F41296 /* ViewController.h */,
+				CE7E0BEA19FD87B500F41296 /* ViewController.m */,
+				CE606C7E19FDD2EA00708A7D /* HomeController.h */,
+				CE606C7F19FDD2EA00708A7D /* HomeController.m */,
+				CE606C8119FDD43000708A7D /* MapController.h */,
+				CE606C8219FDD43000708A7D /* MapController.m */,
+				CE606C8419FDE23F00708A7D /* AreaTableViewController.h */,
+				CE606C8519FDE23F00708A7D /* AreaTableViewController.m */,
+				CE606C8719FDE52F00708A7D /* MapGameSplitController.h */,
+				CE606C8819FDE52F00708A7D /* MapGameSplitController.m */,
+				CE606C8D19FDF2E000708A7D /* JustPostedAreaTVC.h */,
+				CE606C8E19FDF2E000708A7D /* JustPostedAreaTVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE606C7819FDCD8700708A7D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */,
+				CE606C7419FDA56800708A7D /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE606C9019FDF5E200708A7D /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				CE606C9519FDFD6D00708A7D /* ImageViewController.h */,
+				CE606C9619FDFD6E00708A7D /* ImageViewController.m */,
+				CE606C9119FDF5E200708A7D /* FlickrAPIKey.h */,
+				CE606C9219FDF5E200708A7D /* FlickrFetcher.h */,
+				CE606C9319FDF5E200708A7D /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
 		CE7E0BD319FD87B500F41296 = {
 			isa = PBXGroup;
 			children = (
@@ -109,16 +171,15 @@
 		CE7E0BDE19FD87B500F41296 /* PlayMate */ = {
 			isa = PBXGroup;
 			children = (
+				CE606C9019FDF5E200708A7D /* Flickr Fetcher */,
+				CE606C7819FDCD8700708A7D /* Storyboards */,
+				CE606C7719FDCD5E00708A7D /* ViewControllers */,
 				CE7E0BE319FD87B500F41296 /* AppDelegate.h */,
 				CE7E0BE419FD87B500F41296 /* AppDelegate.m */,
-				CE7E0BE919FD87B500F41296 /* ViewController.h */,
-				CE7E0BEA19FD87B500F41296 /* ViewController.m */,
 				CE7E0BEF19FD87B600F41296 /* Images.xcassets */,
 				CE7E0BF119FD87B600F41296 /* LaunchScreen.xib */,
 				CE7E0BE619FD87B500F41296 /* PlayMate.xcdatamodeld */,
 				CE7E0BDF19FD87B500F41296 /* Supporting Files */,
-				CE606C7119FDA54100708A7D /* Main_iPhone.storyboard */,
-				CE606C7419FDA56800708A7D /* Main_iPad.storyboard */,
 			);
 			path = PlayMate;
 			sourceTree = "<group>";
@@ -287,7 +348,14 @@
 			files = (
 				CE7E0BE519FD87B500F41296 /* AppDelegate.m in Sources */,
 				CE7E0BE219FD87B500F41296 /* main.m in Sources */,
+				CE606C8F19FDF2E000708A7D /* JustPostedAreaTVC.m in Sources */,
 				CE7E0BEB19FD87B500F41296 /* ViewController.m in Sources */,
+				CE606C9719FDFD6E00708A7D /* ImageViewController.m in Sources */,
+				CE606C8919FDE52F00708A7D /* MapGameSplitController.m in Sources */,
+				CE606C8019FDD2EA00708A7D /* HomeController.m in Sources */,
+				CE606C8319FDD43000708A7D /* MapController.m in Sources */,
+				CE606C8619FDE24000708A7D /* AreaTableViewController.m in Sources */,
+				CE606C9419FDF5E200708A7D /* FlickrFetcher.m in Sources */,
 				CE7E0BE819FD87B500F41296 /* PlayMate.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -437,6 +506,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
